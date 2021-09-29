@@ -1,0 +1,156 @@
+body{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ background-color: lightcoral;
+}
+
+* {
+ box-sizing: inherit;
+}
+
+.form{
+ width: 500px;
+ height: 250px;
+ margin: 0 auto;
+ margin-top:200px;
+ padding: 0;
+ background-image: url(../img/mevalar.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.box{
+ width: 500px;
+ height: 250px;
+ margin: 0 auto;
+ padding: 0;
+}
+
+.choice{
+ font-weight: 900;
+ color:lightcyan;
+}
+
+
+.label{
+ display: flex;
+ cursor: pointer;
+ width: 500px;
+ margin-bottom: 20px;
+ color: lightcyan;
+}
+
+.input{
+ display: none;
+}
+
+.input:checked + .span{
+background-image: url(../img/check.svg);
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+.span{
+ display: block;
+ width: 20px;
+ height: 20px;
+ margin-right: 10px;
+ border: 2px solid red;
+ border-radius: 5px;
+ background-color:wheat;
+}
+
+
+
+
+.label1{
+ display: flex;
+ cursor: pointer;
+ width: 500px;
+ margin-bottom: 20px;
+ color: lightcyan;
+}
+
+.input1{
+ display: none;
+}
+
+.input1:checked + .span1{
+background-image: url(../img/check.svg);
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+.span1{
+ display: block;
+ width: 20px;
+ height: 20px;
+ margin-right: 10px;
+ border: 2px solid red;
+ border-radius: 5px;
+ background-color:wheat;
+}
+
+
+
+
+
+.label2{
+ display: flex;
+ cursor: pointer;
+ width: 500px;
+ margin-bottom: 20px;
+ color: lightcyan;
+}
+
+.input2{
+ display: none;
+}
+
+.input2:checked + .span2{
+background-image: url(../img/check.svg);
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+.span2{
+ display: block;
+ width: 20px;
+ height: 20px;
+ margin-right: 10px;
+ border: 2px solid red;
+ border-radius: 5px;
+ background-color:wheat;
+}
+
+
+
+
+.label3{
+ display: flex;
+ cursor: pointer;
+ width: 500px;
+ margin-bottom: 20px;
+ color: lightcyan;
+}
+
+.input3{
+ display: none;
+}
+
+.input3:checked + .span3{
+background-image: url(../img/check.svg);
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+.span3{
+ display: block;
+ width: 20px;
+ height: 20px;
+ margin-right: 10px;
+ border: 2px solid red;
+ border-radius: 5px;
+ background-color:wheat;
+}
